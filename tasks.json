@@ -1,0 +1,106 @@
+[
+    {
+        "name": "upload-data",
+        "pos": [
+            750,
+            502
+        ],
+        "path": "task-prints\\general\\upload-data__750x502__788x524.jpg"
+    },
+    {
+        "name": "divert-power",
+        "pos": [
+            726,
+            452
+        ],
+        "path": "task-prints\\general\\divert-power__726x452__747x475.jpg"
+    },
+    {
+        "name": "download-data",
+        "pos": [
+            754,
+            508
+        ],
+        "path": "task-prints\\general\\download-data__754x508__785x518.jpg"
+    },
+    {
+        "name": "empty-garbage",
+        "pos": [
+            1215,
+            153
+        ],
+        "path": "task-prints\\general\\empty-garbage__1215x153__1234x171.jpg"
+    },
+    {
+        "name": "prime-shields",
+        "pos": [
+            1097,
+            937
+        ],
+        "path": "task-prints\\general\\prime-shields__1097x937__1118x950.jpg"
+    },
+    {
+        "name": "swipe-card",
+        "pos": [
+            1352,
+            694
+        ],
+        "path": "task-prints\\general\\swipe-card__1352x694__1394x735.jpg"
+    },
+    {
+        "name": "todays-code",
+        "pos": [
+            1174,
+            787
+        ],
+        "path": "task-prints\\general\\todays-code__1174x787__1204x812.jpg"
+    },
+    {
+        "name": "upload-data",
+        "pos": [
+            749,
+            510
+        ],
+        "path": "task-prints\\general\\upload-data__749x510__790x527.jpg"
+    },
+    {
+        "name": "start-reactor",
+        "pos": [
+            396,
+            245
+        ],
+        "path": "task-prints\\general\\start-reactor__396x245__434x274.jpg"
+    },
+    {
+        "name": "fix-wiring",
+        "pos": [
+            970,
+            191
+        ],
+        "path": "task-prints\\general\\fix-wiring__970x191__997x224.jpg"
+    },
+    {
+        "name": "calibrate-distributor",
+        "pos": [
+            988,
+            237
+        ],
+        "path": "task-prints\\general\\calibrate-distributor__988x237__1017x269.jpg"
+    },
+    {
+        "name": "fuel-engines",
+        "pos": [
+            1335,
+            842
+        ],
+        "path": "task-prints\\general\\fuel-engines__1335x842__1378x854.jpg"
+    },
+    {
+        "name": "stabilize-steering",
+        "pos": [
+            679,
+            205
+        ],
+        "path": "task-prints\\general\\stabilize-steering__679x205__705x231.jpg"
+    }
+]
