@@ -24,12 +24,12 @@
         "path": "task-prints\\general\\download-data__754x508__785x518.jpg"
     },
     {
-        "name": "empty-garbage",
+        "name": "empty-chute",
         "pos": [
             1215,
             153
         ],
-        "path": "task-prints\\general\\empty-garbage__1215x153__1234x171.jpg"
+        "path": "task-prints\\general\\empty-chute__1215x153__1234x171.jpg"
     },
     {
         "name": "prime-shields",
@@ -102,5 +102,29 @@
             205
         ],
         "path": "task-prints\\general\\stabilize-steering__679x205__705x231.jpg"
+    },
+    {
+        "name": "chart-course",
+        "pos": [
+            465,
+            250
+        ],
+        "path": "task-prints\\general\\chart-course__465x250__487x271.jpg"
+    },
+    {
+        "name": "clean-o2",
+        "pos": [
+            577,
+            301
+        ],
+        "path": "task-prints\\general\\clean-o2__577x301__597x324.jpg"
+    },
+    {
+        "name": "clear-asteroids",
+        "pos": [
+            636,
+            864
+        ],
+        "path": "task-prints\\general\\clear-asteroids__636x864__658x886.jpg"
     }
 ]

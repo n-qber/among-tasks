@@ -1,30 +1,36 @@
-from pynput.mouse import Controller, Button
+import pyautogui
 from PIL import ImageGrab
-from time import sleep
 
 
 class Task:
-    def __init__(self):
-        self.mouse = Controller()
 
-    def set_pos(self, posX, posY):
-        posX_original, posY_original = list(self.mouse.position)
-        self.mouse.move(posX - posX_original, posY - posY_original)
+    @staticmethod
+    def set_pos(x, y, *args, **kwargs):
+        pyautogui.moveTo(x, y, *args, **kwargs)
 
-    def drag(self, posX, posY, cooldown=.05):
-        posX_original, posY_original = list(self.mouse.position)
+    @staticmethod
+    def move(x, y, *args, **kwargs):
+        pyautogui.move(x, y, *args, **kwargs)
 
-    def click(self, times=1):
-        self.mouse.click(Button.left, times)
+    @staticmethod
+    def dragTo(x, y, duration=0.0, **kwargs):
+        pyautogui.dragTo(x, y, duration, **kwargs)
 
-    def click_down(self):
-        self.mouse.press(Button.left)
+    @staticmethod
+    def click(x=None, y=None, clicks=1):
+        pyautogui.click(x=x, y=y, clicks=clicks)
 
-    def click_up(self):
-        self.mouse.release(Button.left)
+    @staticmethod
+    def click_up():
+        pyautogui.mouseUp()
 
-    def sleep(self, time):
-        sleep(time)
+    @staticmethod
+    def click_down():
+        pyautogui.mouseDown()
+
+    @staticmethod
+    def sleep(seconds):
+        pyautogui.sleep(seconds)
 
     def _solve(self, frame):
         pass

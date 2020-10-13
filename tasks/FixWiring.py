@@ -23,11 +23,9 @@ class FixWiring(Task):
 
     def fix_by_position(self, pos0, pos1):
         self.set_pos(*pos0)
-        self.sleep(.1)
         self.click_down()
-        self.sleep(.1)
         self.set_pos(*pos1)
-        self.sleep(.1)
+        self.sleep(.05)
         self.click_up()
 
     def fix_by_index(self, left_index, right_index):

@@ -1,4 +1,5 @@
 from pynput.keyboard import Listener
+from pyautogui import password
 from PIL import ImageGrab
 from os import mkdir, listdir
 import os
@@ -19,8 +20,11 @@ def as_next(files):
 
 
 def save_image(image):
-    already = listdir("task-prints")
-    image.save(os.path.join("task-prints", as_next(already)))
+    #already = listdir("task-prints")
+    path = os.path.join("task-prints", "general", input("[?] Name of the task: "))#as_next(already))
+    image.save(path)
+    print(f"[*] Image saved at: {path}")
+
 
 
 def on_press(key):
