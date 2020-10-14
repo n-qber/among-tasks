@@ -46,14 +46,16 @@ class TaskIdentifier:
 
 
 if __name__ == '__main__':
-    from pynput.keyboard import Listener
+    from pynput.keyboard import Listener, Key
+    from os import system
 
     def on_press(key):
         try:
-            if key.char == "p":
+            if (hasattr(key, "char") and key.char == 'p') or key.value == Key.space.value:
                 task_id = TaskIdentifier.identify_task()
                 if task_id:
                     print(f"[I] Identified task: {task_id}")
+                    system("python tasks/" + ''.join([x.capitalize() for x in task_id.split('-')]) + ".py")
         except:
             pass
 

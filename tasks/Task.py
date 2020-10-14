@@ -13,6 +13,10 @@ class Task:
         pyautogui.move(x, y, *args, **kwargs)
 
     @staticmethod
+    def actual_pos():
+        return pyautogui.position()
+
+    @staticmethod
     def dragTo(x, y, duration=0.0, **kwargs):
         pyautogui.dragTo(x, y, duration, **kwargs)
 

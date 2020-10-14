@@ -126,5 +126,29 @@
             864
         ],
         "path": "task-prints\\general\\clear-asteroids__636x864__658x886.jpg"
+    },
+    {
+        "name": "align-engine",
+        "pos": [
+            548,
+            125
+        ],
+        "path": "task-prints\\general\\align-engine__548x125__570x145.jpg"
+    },
+    {
+        "name": "inspect-sample",
+        "pos": [
+            701,
+            218
+        ],
+        "path": "task-prints\\general\\inspect-sample__701x218__757x255.jpg"
+    },
+    {
+        "name": "accept-diverted",
+        "pos": [
+            507,
+            478
+        ],
+        "path": "task-prints\\general\\accept-diverted__507x478__543x524.jpg"
     }
 ]

@@ -7,7 +7,7 @@ class DivertPower(Task):
         self.divert_start = 620
         self.divert_compliment = 97
         self.y_pos = 787
-        self.drag_to_y = 700
+        self.drag_to_y = 680
         self.slides = 8
         super().__init__()
 
