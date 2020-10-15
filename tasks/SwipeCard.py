@@ -1,7 +1,7 @@
 from .Task import Task
 
 
-class PrimeShields(Task):
+class SwipeCard(Task):
 
     def __init__(self):
         self.wallet_card_position = (850, 830)
@@ -28,5 +28,5 @@ class PrimeShields(Task):
 if __name__ == '__main__':
     from time import sleep
     sleep(2)
-    prime_shields = PrimeShields()
-    prime_shields.solve()
+    swipe_card = SwipeCard()
+    swipe_card.solve()

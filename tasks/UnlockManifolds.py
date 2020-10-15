@@ -1,5 +1,5 @@
 import sys; sys.path.append("..")
-from utils import image_in_another, dhash_calc
+from utils import image_in_another
 from .Task import Task
 from PIL import Image
 
@@ -55,7 +55,8 @@ class UnlockManifolds(Task):
         return frame.crop((position[0] + 32, position[1] + 32, position[0] + 96, position[1] + 96))
 
     def open_images(self):
-        self.images = [Image.open(f"unlock-manifolds-numbers-images-resized/{index}.jpg") for index in range(1, 11)]
+        #  self.images = [Image.open(f"unlock-manifolds-numbers-images-resized/{index}.jpg") for index in range(1, 11)]
+        self.images = [Image.open(f"tasks/unlock-manifolds-numbers-images-resized/{index}.jpg") for index in range(1, 11)]
 
     def close_images(self):
         assert self.images, "\n\n[!] Run UnlockManifolds.open_images(self) before using close_images."

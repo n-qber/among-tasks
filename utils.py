@@ -20,6 +20,10 @@ def dhash_calc(img) -> int:
 
 
 def image_in_another(another: Image, image: Image, pos: list=(0, 0), bit_diff=20) -> bool:
+    if type(image) is str:
+        image = Image.open(image)
+    if type(another) is str:
+        another = Image.open(another)
 
     width = image.width
     height = image.height
