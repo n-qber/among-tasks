@@ -1,4 +1,4 @@
-from . import Task
+from .Task import Task
 
 
 class ClearAsteroids(Task):

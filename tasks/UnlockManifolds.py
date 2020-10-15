@@ -1,6 +1,6 @@
 import sys; sys.path.append("..")
 from utils import image_in_another, dhash_calc
-from Task import Task
+from .Task import Task
 from PIL import Image
 
 """

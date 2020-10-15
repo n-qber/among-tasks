@@ -1,4 +1,4 @@
-from DownloadData import DownloadData
+from .DownloadData import DownloadData
 
 
 if __name__ == '__main__':

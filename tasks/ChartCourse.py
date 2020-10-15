@@ -1,5 +1,5 @@
 from statistics import mean
-from Task import Task
+from .Task import Task
 
 
 class ChartCourse(Task):
