@@ -1,5 +1,5 @@
 from PIL import ImageGrab, Image
-from utils import start_timeout, timeout
+from utils import start_timeout, timeout, image_in_another
 from json import load
 import dhash
 
@@ -40,7 +40,7 @@ class TaskIdentifier:
                 name = task["name"]
                 pos = task["pos"]
 
-                if TaskIdentifier.image_in_another(image, task["path"], pos):
+                if image_in_another(image, task["path"], pos):
                     #print(f"[I] Identified task: {name}")
                     return name
 

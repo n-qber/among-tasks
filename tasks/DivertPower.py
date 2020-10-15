@@ -24,9 +24,7 @@ class DivertPower(Task):
     def drag_by_index(self, index):
         x_pos = self.divert_start + self.divert_compliment * index
         self.set_pos(x_pos, self.y_pos)
-        self.sleep(1)
         self.click_down()
-        self.sleep(.2)
         self.set_pos(x_pos, self.drag_to_y)
         self.click_up()
 
